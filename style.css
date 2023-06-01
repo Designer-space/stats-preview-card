@@ -135,7 +135,7 @@ body{
 .attribution {
     margin-block: 0.5rem;
     text-align: center;
-    color: hsl(0deg, 0%, 0%);
+    color: hsl(0, 0%, 100%);
   }
   
   .attribution a {
@@ -147,7 +147,7 @@ body{
   
   .attribution a:hover,
   .attribution a:focus {
-    color: hsl(0deg, 0%, 0%);
+    color: var(--clr-dark-500);
   }
   
   @media (min-width: 56.75rem) and (min-height: 43.125rem) {
