@@ -132,6 +132,31 @@ body{
     padding: 1rem;
 }
 
+.attribution {
+    margin-block: 0.5rem;
+    text-align: center;
+    color: hsl(0deg, 0%, 0%);
+  }
+  
+  .attribution a {
+    font-weight: 700;
+    font-size: .775rem;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .attribution a:hover,
+  .attribution a:focus {
+    color: hsl(0deg, 0%, 0%);
+  }
+  
+  @media (min-width: 56.75rem) and (min-height: 43.125rem) {
+    .attribution {
+      position: fixed;
+      bottom: 0;
+    }
+  }
+
 .card{
     background-color: var(--clr-dark-800);
     border-radius: .4rem;
